@@ -2,8 +2,11 @@ package hello.hellospring.discount;
 
 import hello.hellospring.member.Grade;
 import hello.hellospring.member.Member;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
+@Component
+@Qualifier("fixDiscountPolicy")
 public class FixDiscountPolicy implements DiscountPolicy {
     private final int discountFixAmount =1000;
     @Override
