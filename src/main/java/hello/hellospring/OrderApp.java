@@ -1,12 +1,10 @@
 package hello.hellospring;
 
-import hello.hellospring.member.Grade;
-import hello.hellospring.member.Member;
-import hello.hellospring.member.MemberService;
-import hello.hellospring.member.MemberServiceImpl;
-import hello.hellospring.order.Order;
-import hello.hellospring.order.OrderService;
-import hello.hellospring.order.OrderServiceImpl;
+import hello.hellospring.basicspring.member.Grade;
+import hello.hellospring.basicspring.member.Member;
+import hello.hellospring.basicspring.member.MemberService;
+import hello.hellospring.basicspring.order.Order;
+import hello.hellospring.basicspring.order.OrderService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

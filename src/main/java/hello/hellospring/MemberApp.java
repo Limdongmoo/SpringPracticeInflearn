@@ -1,9 +1,8 @@
 package hello.hellospring;
 
-import hello.hellospring.member.Grade;
-import hello.hellospring.member.Member;
-import hello.hellospring.member.MemberService;
-import hello.hellospring.member.MemberServiceImpl;
+import hello.hellospring.basicspring.member.Grade;
+import hello.hellospring.basicspring.member.Member;
+import hello.hellospring.basicspring.member.MemberService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
